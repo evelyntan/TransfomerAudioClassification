@@ -5,4 +5,48 @@
 !*.py
 
 # And not .gitignore itself
-!.gitignore 
+!.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Project specific
+data/
+checkpoints/
+*.pt
+wandb/
+*.png
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
